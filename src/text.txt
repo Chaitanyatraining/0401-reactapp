@@ -1,0 +1,12 @@
+what is component?
+types of components?
+what is props & why?
+what is State & why?
+what is babel?
+what is virtual DOM?
+    -   diffing algorithm
+    -   reconsiliation
+
+what is State?
+
+Stylings(specificity)

@@ -1,0 +1,12 @@
+.primaryhead{
+    color:blue;
+    background-color: brown;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.parahead{
+    color:red;
+    font-size: 25px;
+    text-align: center;
+}

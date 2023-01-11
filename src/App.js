@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import ClassComp from "./ClassComp"
+import StylingComp from "./Components/Stylings/StylingComp"
+import FuncComp from "./FuncComp"
+import Header from "./Header"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = ()=>{
+  const productdetails = {
+    Name : "laptops",
+    price : 10000,
+    description : "this is a laptop",
+  }
+  return(
+    <div>
+      {/* <Header />
+      <h2>Welcome to react</h2>
+      <ClassComp productName="iphone" productPrice="10000" />
+      <hr />
+      <FuncComp courseName="ReactJs" courseDuration="3Months" /> */}
+      <StylingComp />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
