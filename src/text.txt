@@ -8,5 +8,8 @@ what is virtual DOM?
     -   reconsiliation
 
 what is State?
+    - state is a javascript object that stores a components dynamic data and determines the components
+    behaviour.
+    
 
 Stylings(specificity)
