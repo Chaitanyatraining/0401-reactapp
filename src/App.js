@@ -7,6 +7,8 @@ import UsersData from "./Components/UsersData"
 import ConditionalRendering from "./Components/ConditionalRendering"
 import ContactUs from "./Components/ContactUs"
 import UseStateComp from "./Components/UseStateComp"
+import LifecycleMethods from "./Components/LifecycleMethods"
+import Routing from "./Components/Routing/Routing"
 const App = ()=>{
   const productdetails = {
     Name : "laptops",
@@ -16,7 +18,9 @@ const App = ()=>{
   return(
     <div>
        <Header />
-       <UseStateComp />
+       <Routing />
+       {/* <LifecycleMethods /> */}
+       {/* <UseStateComp /> */}
        {/* <ContactUs /> */}
        {/* <ConditionalRendering /> */}
        {/* <UsersData /> */}
