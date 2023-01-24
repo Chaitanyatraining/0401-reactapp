@@ -18,6 +18,9 @@ const Header = ()=>{
           <Link to="usersdata" className="nav-link">UsersData</Link>
         </li>
         <li className="nav-item">
+          <Link to="pagination" className="nav-link">pagination</Link>
+        </li>
+        <li className="nav-item">
           <Link to="contactUs" className="nav-link">Contact Us</Link>
         </li>
         <li className="nav-item">

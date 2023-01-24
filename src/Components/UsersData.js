@@ -32,14 +32,14 @@ class UsersData extends Component {
             </thead>
             <tbody>
                 {
-                 this.state.usersData.length>0 ?   (this.state.usersData.map((user)=>(
+                 this.state.usersData.length ?   this.state.usersData.map((user)=>(
                         <tr className='text-white' key={user.id}>
                             <td>{user.id}</td>
                             <td>{user.name}</td>
                             <td>{user.username}</td>
                             <td>{user.email}</td>
                         </tr>
-                    ))):null
+                    )):<h2>err</h2>
                 }
             </tbody>
         </table>
