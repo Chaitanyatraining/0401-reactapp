@@ -21,6 +21,18 @@ const Header = ()=>{
           <Link to="pagination" className="nav-link">pagination</Link>
         </li>
         <li className="nav-item">
+          <Link to="paginationuseEffect" className="nav-link">pagination useEffect</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="useRefHook" className="nav-link">useRefHook </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="useContextHook" className="nav-link">UseContext Hook </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="usereducer" className="nav-link">UseReducer Hook </Link>
+        </li>
+        <li className="nav-item">
           <Link to="contactUs" className="nav-link">Contact Us</Link>
         </li>
         <li className="nav-item">
